@@ -70,9 +70,16 @@ fi
 分别修改option+←和option+→的映射如下图所示，选择Action为“Send Escape Sequence”，然后输入“b”和“f”即可
 ![key map](.img/2025-03-27-16-50-34.png)
 
+点击 ‌+‌ 按钮新增一个快捷键。
+‌Keyboard Shortcut‌：按下你想要绑定的组合键（如 ⌥ + Backspace 或 Option + Delete）。
+‌Action‌：选择 ‌Send Hex Code‌。
+‌Hex Code‌：输入 0x1B 0x7F（即 Esc + Delete 的转义序列）。
+
 ## zsh 配置
 ```shell
 # ~/.mine_zsh > ~/.zshrc
-VSCODE_PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
-export PATH="$PATH:$VSCODE_PATH"
+# VSCODE_PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+# export PATH="$PATH:$VSCODE_PATH"
 ```
+
+## tssh 管理ssh连接

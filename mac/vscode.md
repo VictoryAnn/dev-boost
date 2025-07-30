@@ -8,3 +8,8 @@ base Path: ${currentFileDir}/.img
 insert Pattern: ${imageSyntaxPrefix}.img/${imageFilePath}${imageSyntaxSuffix}
 Path: ${currentFileDir}/.img
 ```
+
+#### vscode-drawio
+画图工具
+## 终端命令打开vscode
+打开vscode shift+command+p 搜索 install code in path
